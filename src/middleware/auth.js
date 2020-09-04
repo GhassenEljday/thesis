@@ -41,4 +41,3 @@ exports.resetPasswordValidator = [
     .isLength({ min: 6 })
     .withMessage('Password must be at least 6 characters long'),
 ];
-
