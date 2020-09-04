@@ -13,7 +13,7 @@ const publicPath = path.join(__dirname, '..', 'client', 'build');
 const userPublicPath = path.join(__dirname, '..', 'userPublic');
 
 require('./db/db');
-const app = express();
+const app = express(); 
 
 // app middleware 
 app.use(morgan('dev'));
